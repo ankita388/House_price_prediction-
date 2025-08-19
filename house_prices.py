@@ -46,7 +46,7 @@ plt.ylabel("Predicted Sale Price")
 plt.title("Actual vs Predicted Sale Price")
 plt.show()
 
-# ------------------ USER INPUT ------------------
+
 print("\n🏠 House Price Prediction with Your Input")
 
 sqft = float(input("Enter square footage of the house (GrLivArea): "))
@@ -69,3 +69,4 @@ submission = pd.DataFrame({
 submission.to_csv("submission.csv", index=False)
 
 print("\n✅ submission.csv file has been created successfully!")
+
